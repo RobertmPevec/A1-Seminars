@@ -1,0 +1,71 @@
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body,
+html {
+    height: 100%
+}
+
+.bgimg {
+    background-image: url('brazilian-jiu-jitsu-closed-guard-position-wvg41j0mrvlhqk7p.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+/* Position text in the middle */
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-bottom: 20rem;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+.logotop {
+    max-width: 300px;
+}
+
+#button {
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: transparent;
+    border-radius: .8rem;
+    color: white;
+    border-color: white;
+}
+
+#button:hover {
+    color: #FEC52E;
+    border-color: #FEC52E;
+}
+
+@media(max-width: 991.5px) {
+    .middle {
+        padding-bottom: 0;
+        scale: .9;
+    }
+
+    .topleft {
+        scale: .75;
+    }
+}
